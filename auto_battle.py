@@ -17,7 +17,7 @@ with open('settings.json', 'r') as file:
     bot_set = json.loads(file.read())
 
 #Insert your private key here, however you like, plain text, encrypted, wallet etc
-r = Requests("PRIVATE POSTING KEY")
+r = Requests("5K4Hk1bJBVdv69NKyq17AJk526Lp49EbeAihiY7FkoBmyvCdpSz")
 player = bot_set["player"]
 
 api = Api()
